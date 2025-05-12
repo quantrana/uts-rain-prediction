@@ -12,9 +12,7 @@ This repository contains the full **data-mining pipeline** I built for Assignmen
 3. [End-to-End Approach](#end-to-end-approach)
 4. [Why Each Choice?](#why-each-choice)
 5. [Experimental Results](#experimental-results)
-6. [Project Structure](#project-structure)
-7. [Quick Start](#quick-start)
-8. [Future Work](#future-work)
+6. [Future Work](#future-work)
 
 ---
 
@@ -70,3 +68,11 @@ Predict the binary target **`RainTomorrow`** (Yes / No) for the next day using \
 
 *Public leaderboard*: **0 · 81126** F1.
 *Confusion-matrix & ROC plots* can be found in the notebook.
+
+Future Work
+Cost-sensitive loss or focal loss to push minority-class F1 higher.
+
+Try temporal models (Temporal Fusion Transformer, LSTM) to exploit seasonality.
+
+Deploy as a REST API (FastAPI + Docker) and automate a daily forecast pipeline.
+
